@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <title>Shopping list</title>
+    <link href="mulberries.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+    <div id="app">
+        <h1>Shopping List</h1>
+        <form>
+            <fieldset>
+                <legend>Add a new item to the shopping list</legend>
+
+                <input type="text" id="input-list-item" placeholder="list item">
+                <input type="number" id="input-price" placeholder="price">
+                <input type="number" id="input-quantity" placeholder="quantity">
+                <input type="button" id="submit" value="add">
+
+
+            </fieldset>
+        </form>
+
+        <ul id="shopping-list">
+            <li class="item-container list-header">
+                <div></div>
+                <div>Item name</div>
+                <div>Price</div>
+                <div>Quantity</div>
+                <div>Total Price</div>
+                <div></div>
+            </li>
+        </ul>
+
+        <div id="total-spending">total spending</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
